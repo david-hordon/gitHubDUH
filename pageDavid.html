@@ -6,28 +6,106 @@
 <title>David's Page</title>
 
 <style type="text/css">
-@import url(path/stylesheet.css);
+/*@import url(path/stylesheet.css);*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+#contentArea {
+  max-width: 900px;
+  margin: auto;
+  padding: 0 20px;
+}
+
 </style>
 
 </head>
   
 <body>
-  <h1>Learning Git and GitHub&mdash;and Failing Miserably</h1>
+<!-- Start contentArea -->
+<div id="contentArea">
+
+  <h1 id="top">Learning Git and GitHub&mdash;and Failing Miserably!</h1>
 
   <ul>
   	<li><a href="index.html">Home Page</a></li>
   	<li><a href="pageChris.html">Chris's Page</a></li>
   </ul>
 
-  <h2>David's Page</h2>
+  <h1>David's Page</h1>
 
-  <p>The best Help in GitHub appears to be that referenced in the sign-in menu</p>
+  <ul>
+    <li><a href="#githubHelp">GitHub Help</a></li>
+    <li><a href="#githubGlossary">GitHub Glossary</a></li>
+    <li><a href="#theFork">The Fork</a></li>
+    <li><a href="#githubFlow">The GitHub Flow</a></li>
+    <li><a href="#learningLab">The GitHub Learning Lab</a></li>
+    <li><a href="#">Title</a></li>
+  </ul>
+
+  <h2 id="githubHelp">GitHub Help</h2>
+
+  <p>You would think the best, most comprehensive, GitHub Help would be available from the Help menu. Not so with GitHub! The Help menu, at best, gives access to a seemingly desultory and ragbag assortment of 'Helps'. If you want a <em>comprehensive</em> and <em>organised</em> Help use the Help option available from the Sign-in menu:</p>
 
   <img src="images/sign-in-help.png">
 
-  <h3>GitHub Terms</h3>
+  <p>Or access it by following this link <a href="https://help.github.com/en">https://help.github.com/en</a>. To open in a new Tab, Right-click (Ctrl + click) the link and choose 'Open Link in New Tab'. </p>
 
-  <h4>Fork</h4>
+  <a href="#top">Top</a>
+  <hr>
+
+  <h2 id="githubGlossary">GitHub Glossary</h2>
+
+  <p>Here's a link to list of some Git and GitHub specific terms, <a href="https://help.github.com/en/articles/github-glossary">GitHub Glossary</a>. Very useful when you don't speak the lingo! Below is my own selection, copied-and-pasted from the original, just to get me started on this doomed adventure.</p>
+
+  <h3>Branch</h3>
+
+  <p>"A branch is a parallel version of a repository. It is contained within the repository, but does not affect the primary or master branch allowing you to work freely without disrupting the "live" version. When you've made the changes you want to make, you can merge your branch back into the master branch to publish your changes. For more information, see <a href="https://help.github.com/en/articles/about-branches">About branches</a>."</p>
+
+  <h3>Clone</h3>
+
+  <p>"A clone is a copy of a repository that lives on your computer instead of on a website's server somewhere, or the act of making that copy. With your clone you can edit the files in your preferred editor and use Git to keep track of your changes without having to be online. It is, however, connected to the remote version so that changes can be synced between the two. You can push your local changes to the remote to keep them synced when you're online."</p>
+
+  <h3>Collaborator</h3>
+
+  <p>"A collaborator is a person with read and write access to a repository who has been <a href="https://help.github.com/en/articles/inviting-collaborators-to-a-personal-repository">invited to contribute</a>  by the repository owner."</p>
+
+  <h3>Fork</h3>
+
+  <p>"A fork is a personal copy of another user's repository that lives on your account. Forks allow you to freely make changes to a project without affecting the original. Forks remain attached to the original, allowing you to submit a pull request to the original's author to update with your changes. You can also keep your fork up to date by pulling in updates from the original."</p>
+
+  <h3>Merge</h3>
+
+  <p>"Merging takes the changes from one branch (in the same repository or from a fork), and applies them into another. This often happens as a pull request (which can be thought of as a request to merge), or via the command line. A merge can be done automatically via a pull request via the GitHub web interface if there are no conflicting changes, or can always be done via the command line. For more information, see <a href="https://help.github.com/en/articles/merging-a-pull-request">Merging a pull request</a>."</p>
+
+  <h3>Pull</h3>
+
+  <p>"Pull refers to when you are fetching in changes and merging them. For instance, if someone has edited the remote file you're both working on, you'll want to pull in those changes to your local copy so that it's up to date."</p>
+
+  <h3>Pull request</h3>
+
+  <p>"Pull requests are proposed changes to a repository submitted by a user and accepted or rejected by a repository's collaborators. Like issues, pull requests each have their own discussion forum. For more information, see <a href="https://help.github.com/en/articles/about-pull-requests">About pull requests</a>."</p>
+
+  <h3>Push</h3>
+
+  <p>"Pushing refers to sending your committed changes to a remote repository, such as a repository hosted on GitHub. For instance, if you change something locally, you'd want to then push those changes so that others may access them."</p>
+
+  <h3>Repository</h3>
+
+  <p>"A repository is the most basic element of GitHub. They're easiest to imagine as a project's folder. A repository contains all of the project files (including documentation), and stores each file's revision history. Repositories can have multiple collaborators and can be either public or private."</p>
+
+  <h3>Upstream</h3>
+
+  <p>"When talking about a branch or a fork, the primary branch on the original repository is often referred to as the "upstream", since that is the main place that other changes will come in from. The branch/fork you are working on is then called the 'downstream'."</p>
+
+  <a href="#top">Top</a>
+  <hr>
+
+  <h2 id="theFork">The Fork</h2>
 
   <p>"A fork is a copy of a repository that you manage. Forks let you make changes to a project without affecting the original repository. You can fetch updates from or submit changes to the original repository with pull requests."</p>
 
@@ -44,8 +122,12 @@
   	<li><a href="https://help.github.com/en/articles/creating-a-pull-request-from-a-fork">Creating a Pull Request from a Fork</a></li>
   	<li><p>The following is from GitHub Guides:</p><a href="https://guides.github.com/activities/forking/">Forking</a></li>
   </ul>
+
+  <a href="#top">Top</a>
+  <hr>
+
   <div>
-  	<h2>The GitHub Flow</h2>
+  	<h2 id="githubFlow">The GitHub Flow</h2>
   	<h4>GitHub Flow 1—The Master Branch</h4>
     <img src="images/githubFlow1.png">
     <h4>GitHub Flow 2—Creating a Feature Branch</h4>
@@ -62,8 +144,10 @@
     <img src="images/githubFlow7.png">
   </div>
   
+  <a href="#top">Top</a>
+  <hr>
 
-  <h2>GitHup Learning Lab</h2>
+  <h2 id="learningLab">GitHup Learning Lab</h2>
 
   <p>I enrolled in the GitHub Learning Lab, signed up for, and completed, the first course, Introduction to GitHub. It was helpful, without doubt, but rather poorly planned. If you're thinking of trying it yourself, make sure you make a copy of this URL, <a href="https://lab.github.com/githubtraining/introduction-to-github">https://lab.github.com/githubtraining/introduction-to-github</a>.</p>
 
@@ -83,7 +167,8 @@
 
 
 
-  
+</div>
+<!-- End contentArea -->
 </body>
   
 </html>
