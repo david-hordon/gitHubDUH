@@ -21,6 +21,11 @@ body {
   padding: 0 20px;
 }
 
+.listStyle0 {
+  list-style: none;
+  padding: 0;
+}
+
 </style>
 
 </head>
@@ -45,13 +50,13 @@ body {
     <li><a href="#githubFlow">The GitHub Flow</a></li>
     <li><a href="#learningLab">The GitHub Learning Lab</a></li>
     <li><a href="#collaborating">Inviting a Collaboration</a></li>
-    <li><a href="#subtitleURL">Editing Subtitle and URL</a></li>
+    <li><a href="#subtitleURL">>Editing Repo 'Description' and 'Website'</a></li>
     <li><a href="#">Title</a></li>
   </ul>
 
   <h2 id="githubHelp">GitHub Help</h2>
 
-  <p>You would think the best, most comprehensive, GitHub Help would be available from the <strong>Help</strong> menu. Not so with GitHub! The <strong>Help</strong> menu, so it seems to me, at best gives access to a seemingly desultory and ragbag assortment of 'Helps'. If you want a <em>comprehensive</em> and <em>organised</em> Help, try the Help option available from the Sign-in menu:</p>
+  <p>You would think the best, most comprehensive, GitHub Help would be available from the <strong>Help</strong> menu. Not so with GitHub! The <strong>Help</strong> menu, so it seems to me, at best gives access to a seemingly desultory and ragbag assortment of 'Helps'. If you want a <em>comprehensive</em> and <em>organised</em> Help, try the Help option available on the Sign-in menu:</p>
 
   <img src="images/sign-in-help.png">
 
@@ -160,18 +165,144 @@ body {
 
   <h2 id="learningLab">GitHup Learning Lab</h2>
 
-  <p>I enrolled in the GitHub Learning Lab, signed up for, and completed, the first course, Introduction to GitHub. It was helpful, without doubt, but rather poorly planned. If you're thinking of trying it yourself, make sure you make a copy of this URL, <a href="https://lab.github.com/githubtraining/introduction-to-github">https://lab.github.com/githubtraining/introduction-to-github</a>.</p>
+  <p>GitHub's <a href="https://lab.github.com">Learning Lab</a></p>
+  <p><a href="https://lab.github.com/githubtraining">GitHub Training</a></p>
 
-  <P>Believe me, you'll be glad you did, because the course leaves you several times floundering in a limbo land, not knowing what to do next. Following this link will 'save your bacon'.</p>
+  <p>I enrolled in the GitHub Learning Lab, signed up for and completed the first course, Introduction to GitHub. It was helpful, without doubt, but rather poorly coordinated.</p>
+
+  <p>If you're thinking of trying it yourself, make sure you make a copy of this URL, <a href="https://lab.github.com/githubtraining/introduction-to-github">https://lab.github.com/githubtraining/introduction-to-github</a>. Believe me, you'll be glad you did, because the course leaves you several times floundering in a limbo land, not knowing what to do next. In such circumstances, following the link will 'save your bacon'.</p>
+
+  <h2>Introduction to GitHub</h2>
+  <p>A quick reference guide to complete the steps in the course.</p>
+
+<a href="https://lab.github.com/courses/introduction-to-github/">Introduction to GitHub</a>
+
+<h3>1. Assign yourself</h3>
+<p>On the right side of the issue screen, under the "Assignees" section, click the gear icon and select yourself.</p>
+
+<h3>2. GitHub Pages</h3>
+<ul class="listStyle0">
+  <li>2.1. Click on the <strong>S​ettings​</strong> tab in this repository</li>
+  <li>2.2. Scroll down to the "GitHub Pages" section</li>
+  <li>2.3. From the "Source" drop down, select the ​<strong>master​</strong> branch</li>
+  <li>2.4. Click <strong>S​ave</strong></li>
+</ul>
+
+<h3>3. Close an issue</h3>
+Click the ​<strong>Close issue​</strong> button at the bottom of the issue
+
+<h3>4. Create a branch</h3>
+<ul class="listStyle0">
+  <li>4.1. Navigate to the ​<strong>Code​</strong> tab</li>
+  <li>4.2. Click <strong>B​ranch: master​</strong> in the drop-down</li>
+  <li>4.3. In the field, enter a name for your branch</li>
+  <li>4.4. Click <strong>C​reate branch: &lt;name&gt;</strong> or press the “Enter” key to create your branch</li>
+</ul>
+
+<h3>5. Commit a file</h3>
+<ul class="listStyle0">
+  <li>5.1. While on the branch you just created, click <strong>C​reate new file</strong> ​on the “Code" tab.</li>
+  <li>5.2. In the ​<strong>file name​</strong> field, type _​ posts/0000-01-02-YOUR-USERNAME.md</li>
+  <li>5.3. When you’re done naming the file, add the following content to your file:</li>
+  <li><pre style="font-size: 130%;">
+---
+layout: slide
+title: “Welcome to our second slide!”
+---
+Your test
+Use the left arrow to go back!</pre></li>
+  <li>5.4. After adding the text, you can commit the change by entering a commit message in the text-entry field below the file edit view.</li>
+  <li>5.5. When you’ve entered a commit message, click <strong>C​ommit new file</strong>.​</li>
+</ul>
+
+<h3>6. Open a pull request</h3>
+<ul class="listStyle0">
+  <li>6.1. On the ​<strong>Code​</strong> tab, click <strong>N​ew pull request</strong></li>
+  <li>6.2. In the ​<strong>base:​</strong> drop-down menu, make sure the <strong>m​aster​</strong> branch is selected</li>
+  <li>6.3. In the ​<strong>compare:​</strong> drop-down menu, select the branch you recently made your
+commit on</li>
+  <li>6.4. When you’ve selected your branch, enter a title for your pull request, for example
+Add username's file</li>
+  <li>6.5. The next field helps you provide a description of the changes you made. Feel free to add a description of what you’ve accomplished so far. As a reminder, you have: created a branch, created a file and made a commit, and opened a pull request</li>
+  <li>6.6. Click <strong>C​reate pull request</strong></li>
+</ul>
+
+<h3>7. Respond to a review</h3>
+<ul class="listStyle0">
+  <li>7.1. Click the <strong>F​iles Changed​</strong> tab in this pull request</li>
+  <li>7.2. Click on the pencil (​✏) icon found on the right side of the screen</li>
+  <li>7.3. Replace line 5 with something new</li>
+  <li>7.4. Scroll to the bottom and click ​<strong>Commit Changes</strong></li>
+</ul>
+
+<h3>8. Merge your pull request</h3>
+<ul class="listStyle0">
+  <li>8.1. Click <strong>M​erge pull request</strong></li>
+  <li>8.2. Click <strong>C​onfirm merge</strong></li>
+  <li>8.3. Once your branch has been merged, you don’t need it anymore. Click D​elete
+branch​.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
 
   <a href="#top">Top</a>
   <hr>
 
-  <h2 id="subtitleURL">Editing Subtitle and URL</h2>
+  <h2 id="subtitleURL">Editing Repo 'Description' and 'Website'</h2>
+  <p>The repository 'Description' and 'Website' URL (if it's on the internet) are easy to edit: just click the Edit button on the right.</p>
+
   <img src="images/GitHubwebsite.png">
+
+  <p>This brings us into 'edit' mode. Just type into the Description field to make whatever changes are required.</p>
+
   <img src="images/GitHubwebsite-edit.png">
+  <p>In 'edit' mode there is also a Website field where the URL the repository has its own website, this is also where you can place its URL. The easiest way is to just copy the URL of the website to clipboard, navigate back to the repo title page (below), click Edit, and paste the address into the Website field.</p>
+  
+  <a href="#top">Top</a>
+  <hr>
+
+  <p>Wanting to get a clear idea of GitHub Pages is about, I did a Google search, and came up with this 8-link list of things directly related to <a href="https://help.github.com/en/categories/github-pages-basics">GitHub Pages Basics</a></p>
+
+  <ul>
+    <li>What is GitHub Pages?</li>
+    <li>Configuring a publishing source for GitHub Pages</li>
+    <li>User, Organization, and Project Pages</li>
+    <li>Creating Project Pages using the command line</li>
+    <li>Securing your GitHub Pages site with HTTPS</li>
+    <li>Unpublishing a Project Pages site</li>
+    <li>Unpublishing a User Pages site</li>
+    <li>Further reading on GitHub Pages</li>
+  </ul>
+
+  <ul>
+    <li>GitHub Learning Lab course on GitHub Pages</li>
+    <li>Beyond GitHub Pages basics</li>
+    <li>GitHub Pages tutorial</li>
+  </ul>
+
   
 
+
+
+
+  <a href="#top">Top</a>
+  <hr>
+  
+  
+  
+  
+  
+  
+  
 
 
 
