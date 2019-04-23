@@ -16,14 +16,23 @@ body {
 }
 
 #contentArea {
-  max-width: 900px;
+  width: 900px;
   margin: auto;
   padding: 0 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .listStyle0 {
   list-style: none;
   padding: 0;
+}
+
+.highlight {
+  color: red;
 }
 
 </style>
@@ -50,7 +59,17 @@ body {
     <li><a href="#githubFlow">The GitHub Flow</a></li>
     <li><a href="#learningLab">The GitHub Learning Lab</a></li>
     <li><a href="#collaborating">Inviting a Collaboration</a></li>
-    <li><a href="#subtitleURL">>Editing Repo 'Description' and 'Website'</a></li>
+    <li><a href="#bannerPane">Banner, User, Repo, Description &amp; Website Panes</a>
+      <ul>
+        <li><a href="#searchField">The &lpar;Camouflaged&rpar; Search Field</a></li>
+        <li><a href="#newRepo">New Repository Dropdown</a></li>
+        <li><a href="#signedIn">The 'Sign in as' Menu</a></li>
+        <li><a href="#reName">Renaming a Repository</a></li>
+        <li><a href="#subtitleURL">Editing Repo 'Description' and 'Website' Panes</a></li>
+        <li><a href="#editMode">The 'Description' and 'Website' Edit-Mode</a></li>
+      </ul>
+    </li>
+    <li></li>
     <li><a href="#">Title</a></li>
   </ul>
 
@@ -168,9 +187,15 @@ body {
   <p>GitHub's <a href="https://lab.github.com">Learning Lab</a></p>
   <p><a href="https://lab.github.com/githubtraining">GitHub Training</a></p>
 
+  <a href="https://www.youtube.com/watch?v=w3jLJU7DT5E&feature=youtu.be">What is GitHub? &lpar;Video&rpar;</a>
+
+  <img src="images/learningLab.png">
+
   <p>I enrolled in the GitHub Learning Lab, signed up for and completed the first course, Introduction to GitHub. It was helpful, without doubt, but rather poorly coordinated.</p>
 
   <p>If you're thinking of trying it yourself, make sure you make a copy of this URL, <a href="https://lab.github.com/githubtraining/introduction-to-github">https://lab.github.com/githubtraining/introduction-to-github</a>. Believe me, you'll be glad you did, because the course leaves you several times floundering in a limbo land, not knowing what to do next. In such circumstances, following the link will 'save your bacon'.</p>
+
+  <p class="highlight">I may have been a little harsh in my comments, above. At points in the course where I felt I'd been left in limbo land, emails may have been sent from the Learning Lab bot which I simply failed to notice.</p>
 
   <h2>Introduction to GitHub</h2>
   <p>A quick reference guide to complete the steps in the course.</p>
@@ -257,15 +282,55 @@ branch​.</li>
   <a href="#top">Top</a>
   <hr>
 
-  <h2 id="subtitleURL">Editing Repo 'Description' and 'Website'</h2>
-  <p>The repository 'Description' and 'Website' URL (if it's on the internet) are easy to edit: just click the Edit button on the right.</p>
+  <h2 id="bannerPane">Banner, User, Repo, Description &amp; Website</h2>
+
+  <img src="images/bannerUserWeb-pane.png">
+
+  <div style="height: 100px;"></div>
+  <a href="#top">Top</a>
+  <hr>
+
+  <h3 id="searchField">The &lpar;Camouflaged&rpar; Search Field</h3>
+  <p>Take a good look at the Banner image below. Can you see it? Surely, you can? I've even drawn in a big red arrow pointing it out. Yup! It's a 'Search' field, but very well camouflaged. It took me two whole weeks to find it!</p>
+  <img src="images/searchField.png">
+
+  <div style="height: 100px;"></div>
+  <a href="#top">Top</a>
+  <hr>
+
+  <h3 id="newRepo">New Repository Dropdown</h3>
+  <img src="images/newRepo.png">
+
+  <div style="height: 100px;"></div>
+  <a href="#top">Top</a>
+  <hr>
+
+  <h3 id="signedIn">The 'Signed in as' Menu</h3>
+  <img src="images/signed-in.png">
+
+  <div style="height: 100px;"></div>
+  <a href="#top">Top</a>
+  <hr>
+
+  <h3 id="reName">Renaming a Repository</h3>
+  <img src="images/repoRename.png">
+
+  <div style="height: 100px;"></div>
+  <a href="#top">Top</a>
+  <hr>
+
+  <h3 id="subtitleURL">Editing Repo 'Description' and 'Website'</h3>
+  <p>'Code' tab &mdash; The repository 'Description' and 'Website' URL &lpar;if the repo has an internet presence&rpar; are easy to edit: just click the <strong>Edit</strong> button on the right &lpar;look for the red arrow&rpar;.</p>
 
   <img src="images/GitHubwebsite.png">
 
-  <p>This brings us into 'edit' mode. Just type into the Description field to make whatever changes are required.</p>
+  <p>When you click <strong>Edit</strong> you'll enter the 'edit' mode &lpar;see below&rpar;. Just type into the Description field to make whatever changes are required.</p>
 
+  <div style="height: 100px;"></div>
+
+  <h3 id="editMode">The 'Description' and 'Website' Edit-Mode</h3>
   <img src="images/GitHubwebsite-edit.png">
-  <p>In 'edit' mode there is also a Website field where the URL the repository has its own website, this is also where you can place its URL. The easiest way is to just copy the URL of the website to clipboard, navigate back to the repo title page (below), click Edit, and paste the address into the Website field.</p>
+  <p>In 'edit' mode there is also a Website field where the URL the repository has its own website, this is also where you can place its URL. The easiest way is to just copy the URL of the website to clipboard, navigate back to the repo title page &lpar;see below&rpar;, click Edit, and paste the address into the Website field.</p>
   
   <a href="#top">Top</a>
   <hr>
