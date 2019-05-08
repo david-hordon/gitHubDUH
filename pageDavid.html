@@ -43,7 +43,7 @@ img {
 <!-- Start contentArea -->
 <div id="contentArea">
 
-  <h1 id="top">Learning Git and GitHub&mdash;and Fumbling On!</h1>
+  <h1 id="top">Learning Git and GitHub&mdash;and Still Fumbling Along!</h1>
 
   <ul>
   	<li><a href="index.html">Home Page</a></li>
@@ -59,7 +59,12 @@ img {
       </ul>
     </li>
     <li><a href="#githubHelp">GitHub Help</a></li>
-    <li><a href="#collaborating">Collaborating on GitHub</a></li>
+    <li><a href="#collaborating">Collaborating on GitHub</a>
+      <ul>
+        <li>Inviting a Collaboration</li>
+        <li>Accepting an Invitation to Collaborate</li>
+      </ul>
+    </li>
     <li><a href="#mergeCollaborator">Merging a Collaborator's Modified Branch</a></li>
     <li><a href="#githubGlossary">GitHub Glossary</a></li>
     <li><a href="#theFork">More on the Fork</a></li>
@@ -159,11 +164,28 @@ img {
 
   <h1 id="collaborating">Collaborating on GitHub</h1>
 
+
+  <ul>
+    <li><a href="#startCollaboration">How to Start/Accept a Collaboration</a>
+      <ul>
+        <li><a href="#inviter">Inviting a Collaboration</a></li>
+        <li><a href="#invitee">Accepting a Collaboration</a></li>
+      </ul>
+    </li>
+    <li>Collaborating as <strong>The Collaborator</strong>
+      <ul>
+        <li><a href="">Editing within the Owner's Repository</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <h2 id="startCollaboration">How to Start/Accept a Collaboration</h2>
+
   <p>Detailed instructions on how to <a href="https://help.github.com/en/articles/inviting-collaborators-to-a-personal-repository">invite a collaborator</a> to join a private repository. Other links on this page give details about setting permissions, removing a collaborator, removing oneself from a collaboration, and organizing members into teams.</p>
 
   <p>Below are the steps I &lpar;the Inviter&rpar; took to invite a colleague into a collaboration; this is followed by the email I &lpar;now the Invitee&rpar; received when that same colleague invited me into his project.</p>
 
-  <h2>The Inviter</h2>
+  <h3 id="inviter">The Inviter</h3>
   <p>To invite a person&lpar;s&rpar; into a collaboration:</p>
   <ul>
     <li><strong>Step 1</strong>: Go to the <strong>Settings</strong> tab.</li>
@@ -177,11 +199,12 @@ img {
 
 
 
-  <h2>The Invitee</h2>
+  <h3 id="invitee">The Invitee</h3>
   <p>If you've been invited into collaboration, you'll receive an email similar to the following. The two highlighted links take you to a page where you can choose to accept or decline the invitation.</p>
   <img src="images/collaborators2.png">
   <p>This is the page where you can <strong>Accept</strong> or <strong>Decline</strong> the invitation.</p>
   <img src="images/collaborators3.png">
+  <p>If you accept an invitation, the Inviter will not receive notification. You might want to make contact and let them know. However, once you've made a contribution that's merged into the Inviter's' repository, your avatar name will be listed under <strong>Contributors</strong></p>
 
   <div style="height: 100px;"></div>
   <a href="#top">Top</a>
@@ -215,11 +238,40 @@ img {
   <h2>Step 6a</h2>
 
   <img src="images/Merging6a.png">
+  
+  <div style="height: 30px;"></div>
+  <a href="#top">Top</a>
+
+  <h2 id="addingComments">Adding Comments</h2>
+
+  <p>Once a <strong>branch</strong> has been created, modifications added, and a <strong>Pull request</strong> made, a discussion can take place between the owner, collaborators and contributors. There are several ways to participate. Here's one.</p>
+
+  <p>Note the <strong>Pull request</strong> tab below indicates a <strong>request</strong> is pending. Click it.</p>
+  <img src="images/addComment1.png">
+
+  <div style="height: 50px;"></div>
+
+  <p>You'll now find yourself within the following tab. Note the <strong>Update README.md</strong>.</p>
+  <img src="images/addComment2.png">
+
+  <div style="height: 50px;"></div>
+
+  <p>If you hover over the <strong>Update README.md</strong> it will change colour, and a quick-preview will appear.</p>
+  <img src="images/addComment3.png">
+
+  <div style="height: 50px;"></div>
+
+  <p>If you click on the <strong>Update README.md</strong> you'll be taken to its page. All the comments added so far are listed here, from first to last.</p>
+
+  <p>There are a number of comments in this screenshot &lpar;unfortunately, all mine so far&rpar;. Scroll down to the bottom of the page to find the editing suite in which to <em>write</em>, <em>format</em> and <em>submit</em> any comments you may wish to contribute.</p>
+
+  <p>Alternatively, if you are the repository owner, or a collaborator with 'Write' permissions, and are satisfied with the new edits this branch will bring to the <strong>master</strong>, you can initiate a <strong>Merge pull request</strong> in the pane immediately above.</p>
+  <img src="images/addComment4ab.png">
 
 
   <div style="height: 100px;"></div>
   <a href="#top">Top</a>
-  <br>
+  <hr>
 
   <h2 id="githubGlossary">GitHub Glossary</h2>
 
