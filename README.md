@@ -3,7 +3,7 @@ If I could have named this repository any name I chose, it would have been named
 
 As a newbie to Git, to Terminal, to GitHub and GitHub Desktop, I'm fumbling along, groping my way forwards towards an understanding of this complex and daunting environment. Along the way I'll making notes and creating records. The records may appear chaotic -- quite simply, that's because, at this stage, they are!
 
-However, unlike the GitHub tutorials, which are written by experts--but experts who so often, it seems to me, have forgotten what it's like to be a beginner--this is written by a beginner.
+However, unlike the GitHub tutorials, which are written by experts--but experts who so often, it seems to me, have forgotten what it's like to be a beginner--this is written by a beginner. I can only go so far as I've already gone.
 
 Much of what is written is badly written. That's because it's probable written, as a summary, and at the end of a long, hard session trying to "get my head" around something. Consequently, I'm exhausted when I write it. That means it's more of a babble than a proper explanation.
 
