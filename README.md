@@ -1,4 +1,4 @@
-
+![Site logo image](https://user-images.githubusercontent.com/49107360/57974904-dfaace80-79b7-11e9-8047-4c1c6195faff.png)
 
 # gitHubDUH
 If I could have named this repository any name I chose, it would have been named, 'gitHubDUH!?' But the exasperated explanation mark, and the frankly honest question mark, are not allowed.
