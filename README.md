@@ -9,4 +9,7 @@ Much of what is written is badly written. That's because it's probable written, 
 
 It may never be of any value to anyone but myself, but this is my journey to an understanding.
 https://github.com/david-hordon/gitHubDUH/blob/master/images/githubDUHlogo.png
+
+https://github.com/david-hordon/gitHubDUH
+
 https://github.com/david-hordon/gitHubDUH.wiki.git
