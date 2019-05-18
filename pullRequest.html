@@ -34,6 +34,7 @@ h5 {
 }
 
 p.route {margin: 3px 0;}
+p.smallFont {font-size: 92%;}
 
 img {
   max-width: 100%;
@@ -285,8 +286,10 @@ img {
   <h2 id="pullRequests">The <strong>Pull requests</strong> Page</h2>
   <p>This page is linked directly from the <strong>Repo Front Page</strong>.</p>
 
-  <p>The <strong>New pull request</strong> green button links directly to the <strong>Compare Changes</strong> page. The <strong>Suggested edit to index.html</strong> link&mdash;which, remember, is <em>my</em> description, written along with the first commit&mdash;links directly to the <strong>Suggested edit to index.html/Conversation</strong> tab.</p>
-  <h5>Repo Front Page &gt; Pull requests</h5>
+  <p>The <strong>New pull request</strong> green button links directly to the <strong>Compare Changes</strong> page. The <strong>Suggested edit to index.html</strong> link&mdash;which, please remember, is <em>my</em> description, written along with the first commit&mdash;links directly to the <strong>Conversation</strong> tab.</p>
+
+  <h5>Route to <strong>Pull requests</strong> page</h5>
+  <p class="route">Repo Front Page &gt; Pull requests</p>
   <img src="images/pages/pullRequests.png">
 
   <div style="height: 60px;"></div>
@@ -300,7 +303,8 @@ img {
   <p>This page is linked directly from the <strong>Repo Front Page</strong>.</p>
   
   <p>I've yet to explore the <strong>Pull requests</strong> link on from this page, but I strongly suspect it will be the same as above. The <strong>Open</strong> green button&mdash;either button&mdash;takes us directly to the <strong>Suggested edit to index.html/Conversation</strong> tab.</p>
-  <h5>Repo Front Page &gt; branches</h5>
+  <h5>Route to <strong>branches</strong> page</h5>
+  <p class="route">Repo Front Page &gt; branches</p>
   <img src="images/pages/branches.png">
 
   <div style="height: 60px;"></div>
@@ -317,8 +321,9 @@ img {
 
   <p>The <strong>index.html</strong> link goes directly to the <strong>Comparing changes</strong> page&mdash;see next.</p>
 
-  <h5>Repo Front Page &gt; New pull request</h5>
-  <h5>Repo Front Page &gt; Pull request &gt; New pull request</h5>
+  <h5>Route to <strong>Compare changes</strong> page</h5>
+  <p class="route">Repo Front Page &gt; New pull request</p>
+  <p class="route">Repo Front Page &gt; Pull request &gt; New pull request</p>
   <img src="images/pages/compareChanges.png">
 
   <div style="height: 60px;"></div>
@@ -328,8 +333,10 @@ img {
   <!-- Comparing Changes ------------------------------------------------------- -->
 
   <h2 id="comparingChanges">The <strong>Comparing changes</strong> Page</h2>
-  <h5>Repo Front Page &gt; New pull requests &gt; index.html</h5>
-  <h5>Repo Front Page &gt; New pull requests &gt; compare: <strong>master</strong> &gt; index.html</h5>
+
+  <h5>Route to <strong>Comparing changes</strong> page</h5>
+  <p class="route">Repo Front Page &gt; New pull requests &gt; index.html</p>
+  <p class="route">Repo Front Page &gt; New pull requests &gt; compare: <strong>master</strong> &gt; index.html</p>
   <img src="images/pages/comparingChanges1.png">
   <img src="images/pages/comparingChanges2.png">
 
@@ -339,7 +346,7 @@ img {
 
   <!-- Update to Index: Conversation Tab ------------------------------------------ -->
 
-  <h2 id="conversation">The <strong>Conversation</strong> Page</h2>
+  <h2 id="conversation">The <strong>Conversation</strong> Tab/Page</h2>
 
   <p>'All roads lead to Rome.'</p>
 
@@ -349,13 +356,13 @@ img {
 
   <p>But hold off for a moment, please, because if you move from the default <strong>Conversation</strong> tab you're on right now, and choose the <strong>Files changed</strong> tab&lpar;up next&rpar; there are one of three qualifiers you can add to your comments, as well as the ability to flick between your comments and the edits you're commenting on.</p>
 
-  <h5>Routes to <strong>Conversation</strong> Tab</h5>
+  <h5>Routes to <strong>Conversation</strong> tab/page</h5>
   <p class="route">Repo Front Page &gt; branches &gt; Open</p>
-  <p class="route">Repo First Page: &gt; Branch: <strong>master</strong> &gt; index.html &gt; View #1</p>
-  <p class="route">Repo First Page: &gt; Pull requests &gt; Update to index.html &gt; View pull request</p>
-  <p class="route">Repo First Page: &gt; Pull requests &gt; New pull request &gt; index.html &gt; View pull request</p>
-  <p class="route">Repo Front Page &gt; New pull requests &gt; index.html &gt; View pull request</p>
-  <p class="route">Repo Front Page &gt; New pull requests &gt; compare: <strong>master</strong> &gt; index.html &gt; View pull request</p>
+  <p class="route">Repo Front Page &gt; Branch: <strong>master</strong> &gt; index.html &gt; View #2</p>
+  <p class="route">Repo Front Page &gt; Pull requests &gt; Suggested edit to index.html</p>
+  <p class="route">Repo Front Page &gt; Pull requests &gt; New pull request &gt; index.html &gt; View pull request</p>
+  <p class="route">Repo Front Page &gt; New pull request &gt; index.html &gt; View pull request</p>
+  <p class="route">Repo Front Page &gt; New pull request &gt; compare: <strong>master</strong> &gt; index.html &gt; View pull request</p>
   <img src="images/pages/updateTofile1.png">
   <img src="images/pages/updateTofile2.png">
 
@@ -365,15 +372,15 @@ img {
 
   <!-- Update to Index: Files Change Tab ------------------------------------------ -->
 
-  <h2 id="filesChanged">The <strong>Files changed</strong> Page</h2>
+  <h2 id="filesChanged">The <strong>Files changed</strong> Tab/Page</h2>
 
-  <h5>Route to <strong>Files Changed</strong> Tab</h5>
+  <h5>Route to <strong>Files Changed</strong> tab/page</h5>
   <p class="route">Repo Front Page &gt; branches &gt; Open &gt; Files changed</p>
-  <p class="route">Repo First Page: &gt; Branch: <strong>master</strong> &gt; index.html &gt; View #1 &gt; Files changed</p>
-  <p class="route">Repo First Page: &gt; Pull requests &gt; Update to index.html &gt; View pull request &gt; Files changed</p>
-  <p class="route">Repo First Page: &gt; Pull requests &gt; New pull request &gt; index.html &gt; View pull request &gt; Files changed</p>
-  <p class="route">Repo Front Page &gt; New pull requests &gt; index.html &gt; View pull request &gt; Files changed</p>
-  <p class="route">Repo Front Page &gt; New pull requests &gt; compare: <strong>master</strong> &gt; index.html &gt; View pull request &gt; Files changed</p>
+  <p class="route">Repo Front Page &gt; Branch: <strong>master</strong> &gt; index.html &gt; View #2 &gt; Files changed</p>
+  <p class="route">Repo Front Page &gt; Pull requests &gt; Suggested edit to index.html &gt; Files changed</p>
+  <p class="route">Repo Front Page &gt; Pull requests &gt; New pull request &gt; index.html &gt; View pull request &gt; Files changed</p>
+  <p class="route">Repo Front Page &gt; New pull request &gt; index.html &gt; View pull request &gt; Files changed</p>
+  <p class="route">Repo Front Page &gt; New pull request &gt; compare: <strong>master</strong> &gt; index.html &gt; View pull request &gt; Files changed</p>
   <img src="images/pages/filesChanged.png">
 
   <div style="height: 60px;"></div>
@@ -382,8 +389,18 @@ img {
 
   <!-- Update to Index: Files Change Tab ------------------------------------------ -->
 
-  <h2 id="reviewChanges">The <strong>Review changes</strong> Page</h2>
-  <h5>Repo Front Page &gt; New pull requests &gt; compare: <strong>master</strong> &gt; indexproper.html &gt; View pull request &gt; Files changed &gt; Review changes</h5>
+  <h2 id="reviewChanges">The <strong>Review changes</strong> Pane/Page</h2>
+
+  <p class="route">Repo Front Page &gt; branches &gt; Open &gt; Files changed &gt; Review changes</p>
+  <img src="images/pages/repo-review.png">
+
+  <h5>Route to <strong>Review changes</strong> pane/page&mdash;Repo Front Page (RFP)</h5>
+  <p class="route smallFont">RFP &gt; branches &gt; Open &gt; Files changed &gt; Review changes</p>
+  <p class="route smallFont">RFP &gt; Branch: <strong>master</strong> &gt; index.html &gt; View #2 &gt; Files changed &gt; Review changes</p>
+  <p class="route smallFont">RFP &gt; Pull requests &gt; Suggested edit to index.html &gt; Files changed &gt; Review changes</p>
+  <p class="route smallFont">RFP &gt; Pull requests &gt; New pull request &gt; index.html &gt; View pull request &gt; Files changed &gt; Review changes</p>
+  <p class="route smallFont">RFP &gt; New pull request &gt; index.html &gt; View pull request &gt; Files changed &gt; Review changes</p>
+  <p class="route smallFont">RFP &gt; New pull request &gt; compare: <strong>master</strong> &gt; index.html &gt; View pull request &gt; Files changed &gt; Review changes</p>
   <img src="images/pages/updateTofileReview.png">
 
   <div style="height: 60px;"></div>
