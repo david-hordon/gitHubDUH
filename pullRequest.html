@@ -30,7 +30,10 @@ h5 {font-weight: normal;}
 h5 {
   font-size: 100%;
   margin: 5px 0;
+  text-decoration: underline;
 }
+
+p.route {margin: 3px 0;}
 
 img {
   max-width: 100%;
@@ -210,15 +213,14 @@ img {
     <li><a href="#comparingChanges">The 'Comparing changes' Page</a></li>
     <li><a href="#conversation">The 'Conversation' Page</a></li>
     <li><a href="#filesChanged">The 'Files changed' Page</a></li>
-    <li><a href="#review2">The 'Review' Page</a></li>
+    <li><a href="#reviewChanges">The 'Review changes' Page</a></li>
   </ul>
 
   <p>There are several routes to all of these pages which I've begun to explore&mdash;but only <em>begun</em> to explore. Each <em>route</em> starts from what I am calling the <strong>Repo Front Page</strong> and details the path then followed to arrive at each destination page. These <em>routes</em> are given above each full-size rendition of a particular the page. If you know of other paths, please let me know.</p>
 
   <p>The pages are shown below in miniature: four-to-the-line, for a quick eyeful; and then, immediately below, two-to-the-line, where they are a little easier to identify.</p>
 
-  <h3>Four-to-the-line</h3>
-
+  <h5>Four-to-the-line</h5>
   <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
     <div><img src="images/pages/repoFrontpage1.png" width="220px" height="auto">
     <br><img src="images/pages/repoFrontpage2.png" width="220px" height="auto">
@@ -236,8 +238,7 @@ img {
     <div><img src="images/pages/updateTofileReview.png" width="220px" height="auto"></div>
   </div>
 
-  <h3>Two-to-the-line</h3>
-
+  <h5>Two-to-the-line</h5>
   <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
     <div><img src="images/pages/repoFrontpage1.png" width="440px" height="auto">
     <br><img src="images/pages/repoFrontpage2.png" width="440px" height="auto">
@@ -348,12 +349,13 @@ img {
 
   <p>But hold off for a moment, please, because if you move from the default <strong>Conversation</strong> tab you're on right now, and choose the <strong>Files changed</strong> tab&lpar;up next&rpar; there are one of three qualifiers you can add to your comments, as well as the ability to flick between your comments and the edits you're commenting on.</p>
 
-  <h5>Repo Front Page &gt; branches &gt; Open</h5>
-  <h5>Repo First Page: &gt; Branch: <strong>master</strong> &gt; indexproper.html &gt; View #1</h5>
-  <h5>Repo First Page: &gt; Pull requests &gt; Update to indexproper.html &gt; View pull request</h5>
-  <h5>Repo First Page: &gt; Pull requests &gt; New pull request &gt; indexproper.html &gt; View pull request</h5>
-  <h5>Repo Front Page &gt; New pull requests &gt; indexproper.html &gt; View pull request</h5>
-  <h5>Repo Front Page &gt; New pull requests &gt; compare: <strong>master</strong> &gt; indexproper.html &gt; View pull request</h5>
+  <h5>Routes to <strong>Conversation</strong> Tab</h5>
+  <p class="route">Repo Front Page &gt; branches &gt; Open</p>
+  <p class="route">Repo First Page: &gt; Branch: <strong>master</strong> &gt; index.html &gt; View #1</p>
+  <p class="route">Repo First Page: &gt; Pull requests &gt; Update to index.html &gt; View pull request</p>
+  <p class="route">Repo First Page: &gt; Pull requests &gt; New pull request &gt; index.html &gt; View pull request</p>
+  <p class="route">Repo Front Page &gt; New pull requests &gt; index.html &gt; View pull request</p>
+  <p class="route">Repo Front Page &gt; New pull requests &gt; compare: <strong>master</strong> &gt; index.html &gt; View pull request</p>
   <img src="images/pages/updateTofile1.png">
   <img src="images/pages/updateTofile2.png">
 
@@ -363,8 +365,15 @@ img {
 
   <!-- Update to Index: Files Change Tab ------------------------------------------ -->
 
-  <h2 id="filesChanged">The Page <strong>Update to &lt;file&gt;#/Files changed</strong> Tab</h2>
-  <h5>Repo Front Page &gt; New pull request &gt; compare: <strong>master</strong> &gt; indexproper.html&gt; View pull request &gt; Files changed</h5>
+  <h2 id="filesChanged">The <strong>Files changed</strong> Page</h2>
+
+  <h5>Route to <strong>Files Changed</strong> Tab</h5>
+  <p class="route">Repo Front Page &gt; branches &gt; Open &gt; Files changed</p>
+  <p class="route">Repo First Page: &gt; Branch: <strong>master</strong> &gt; index.html &gt; View #1 &gt; Files changed</p>
+  <p class="route">Repo First Page: &gt; Pull requests &gt; Update to index.html &gt; View pull request &gt; Files changed</p>
+  <p class="route">Repo First Page: &gt; Pull requests &gt; New pull request &gt; index.html &gt; View pull request &gt; Files changed</p>
+  <p class="route">Repo Front Page &gt; New pull requests &gt; index.html &gt; View pull request &gt; Files changed</p>
+  <p class="route">Repo Front Page &gt; New pull requests &gt; compare: <strong>master</strong> &gt; index.html &gt; View pull request &gt; Files changed</p>
   <img src="images/pages/filesChanged.png">
 
   <div style="height: 60px;"></div>
@@ -373,7 +382,7 @@ img {
 
   <!-- Update to Index: Files Change Tab ------------------------------------------ -->
 
-  <h2 id="review2">The 'Update to &lt;file&gt;' Page&mdash;'Review changes'</h2>
+  <h2 id="reviewChanges">The <strong>Review changes</strong> Page</h2>
   <h5>Repo Front Page &gt; New pull requests &gt; compare: <strong>master</strong> &gt; indexproper.html &gt; View pull request &gt; Files changed &gt; Review changes</h5>
   <img src="images/pages/updateTofileReview.png">
 
