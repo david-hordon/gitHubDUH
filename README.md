@@ -14,3 +14,5 @@ https://github.com/david-hordon/gitHubDUH/blob/master/images/githubDUHlogo.png
 https://github.com/david-hordon/gitHubDUH
 
 https://github.com/david-hordon/gitHubDUH.wiki.git
+
+https://github.com/david-hordon/gitHubDUH/blob/master/githubDUHlogo.png?raw=true
