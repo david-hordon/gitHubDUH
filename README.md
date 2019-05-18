@@ -8,6 +8,7 @@ However, unlike the GitHub tutorials, which are written by experts--but experts 
 Much of what is written is badly written. That's because it's probable written, as a summary, and at the end of a long, hard session trying to "get my head" around something. Consequently, I'm exhausted when I write it. That means it's more of a babble than a proper explanation.
 
 It may never be of any value to anyone but myself, but this is my journey to an understanding.
+
 https://github.com/david-hordon/gitHubDUH/blob/master/images/githubDUHlogo.png
 
 https://github.com/david-hordon/gitHubDUH
