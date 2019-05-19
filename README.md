@@ -1,7 +1,7 @@
 ![Site logo image](https://user-images.githubusercontent.com/49107360/57974904-dfaace80-79b7-11e9-8047-4c1c6195faff.png)
 
 # gitHubDUH
-If I could have named this repository any name I chose, it would have been named, 'gitHubDUH!?' But the exasperated explanation mark, and the frankly honest question mark, are not allowed in URLs.
+If I could have named this repository any name I chose, it would have been, 'gitHubDUH!?' But exasperated explanation marks, and the frankly baffled question marks, are not allowed in URLs, however honest!
 
 As a newbie to Git, to Terminal, to GitHub and GitHub Desktop, I'm fumbling along, groping my way forwards towards an understanding of this complex and daunting environment. Along the way I'll making notes and creating records. The records may appear chaotic -- quite simply, that's because, at this stage, they are!
 
