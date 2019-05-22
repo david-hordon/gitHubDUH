@@ -30,7 +30,6 @@ h5 {font-weight: normal;}
 h5 {
   font-size: 100%;
   margin: 5px 0;
-  text-decoration: underline;
 }
 
 p.route {margin: 3px 0;}
@@ -60,6 +59,8 @@ img {
 
   <h1 id="top">Learning Git and GitHub&mdash;Still Fumblin', Bumblin' On!</h1>
 
+<!-- Site Navigation -------------------------------------------------- -->
+
   <h3>Site Navigation</h3>
   <ul>
     <li><a href="index.html">Home Page</a></li>
@@ -69,7 +70,7 @@ img {
   </ul>
 
 
-<!-- The Pull Request -------------------------------------------------- -->
+<!-- Pull Request Navigation -------------------------------------------------- -->
   
   <h3>Pull Request Navigation</h3>
   <ul>
@@ -81,16 +82,12 @@ img {
         <li><a href="#route3">Route 3&mdash;Via 'New pull requests'</a></li>
       </ul>
     </li>
-    <li>Merging a Pull Request</li>
-    <li><a href="#thePages">Naming Repo Pages &lpar;Actual &amp; Descriptive&rpar;</a> 
+    <li><a href="#thePages">Navigating the 'Pull Request' Pages and Tabs</a> 
       <ul>
-        <li><a href="#repoFrontpage">The Repository Front/Home Page</a>
-          <ul>
-            <li>The 'Pull requests' Page</li>
-            <li>The 'Branches' Page</li>
-            <li>The 'New pull request' Page</li>
-          </ul>
-        </li>
+        <li><a href="#repoFrontpage">The Repository Main Page</a></li>
+        <li>The 'Pull requests' Page</li>
+        <li>The 'Branches' Page</li>
+        <li>The 'New pull request' Page</li>
         <li>The 'Conversation' Page</li>
         <li>The 'Files changed' Page</li>
         <li>The 'Compare changes' Page</li>
@@ -98,96 +95,83 @@ img {
         <li>The 'Update to &lt;file&gt;' and <em>Merge pull request</em> Page</li>
       </ul>
     </li>
+    <li>Merging a Pull Request</li>
   </ul>
+
+  <div style="height: 30px;"></div>
+  <a href="#top">Top</a>
+  <hr>
+
+
+<!-- Intro: Getting Started in GitHub -------------------------------------------------- -->
+
+  <h1>Intro&mdash;Getting Started in GitHub</h1>
+
+  <h2>GitHub Help and Tutorials</h2>
+
+  <p>EARLY DRAFT</p>
+
+  <p>If you're a complete beginner, the very best <strong>help</strong> you'll get from GitHub is available from the Dashboard opening page. Rather than click the <strong>New project</strong>, click instead the <strong>Read the Guide</strong>. Take the 'Hello World' tutorial, and then follow the links at the bottom of that page. It is the very best starting point available.</p>
+  <p>This quick tutorial from GitHub <a href="https://guides.github.com/activities/hello-world/">Hello World</a> is well worth a look at. You'll find it om your GitHub Dashboard. Click the green box,<strong>Read the guide</strong>.</p>
+  <p>Leading on from the above tutorial, and using an interactive version of the diagram above that, <a href="https://guides.github.com/introduction/flow/">Understanding the GitHub flow</a> offers readable explanations in a rather fun way&mdash;click the dangling double circles or the left/right arrows to navigate through the various stages.</p>
+
+  <p>Possibly useful collection of <a href="https://guides.github.com">GitHub Guides</a>.</p>
+
+  <p>The GitHub <a href="https://www.youtube.com/githubguides">YouTube Channel</a>.</p>
+
+  <p>The <a href="https://lab.github.com">GitHub Learning Lab</a>. And this tab, <a href="https://lab.github.com/courses">Courses</a>. And this tab, <a href="https://lab.github.com/paths"></a>Learning Paths&mdash;which includes the YouTube <a href="https://lab.github.com/paths">Tractors</a>.</p>
+
+  <p>The GitHub <a href="https://lab.github.com/docs">Learning Lab docs</a>.</p>
+
+  <div style="height: 30px;"></div>
+  <a href="#top">Top</a>
+  <hr>
+
+
+
+<!-- The GitHub Branch -------------------------------------------------- -->
+
+  <h1>The GitHub Branch</h1>
+
+  <h5>Fig. #&mdash;The <strong>branch</strong> Journey</h5>
+  <img src="images/pages/branching.png">
+  <br>
+  <h5>Fig. #&mdash;Creating a <strong>branch</strong></h5>
+  <img src="images/pages/flowBranch.png">
+  <br>
+  <h5>Fig. #&mdash;Making <strong>commits</strong></h5>
+  <img src="images/pages/flowCommits.png">
+  <br>
+   <h5>Fig. #&mdash;The <strong>pull request</strong></h5>
+  <img src="images/pages/flowRequest.png">
+  <br>
+   <h5>Fig. #&mdash;Reviewing a <strong>branch</strong></h5>
+  <img src="images/pages/flowReview.png">
+  <br>
+  <h5>Fig. #&mdash;Deploying a <strong>branch</strong></h5>
+  <img src="images/pages/flowDeploy.png">
+  <br>
+  <h5>Fig. #&mdash;Making a <strong>Merge</strong></h5>
+  <img src="images/pages/flowMerge.png">
+  <br>
+
+  <div style="height: 30px;"></div>
+  <a href="#top">Top</a>
+  <hr>
+  
+
+
+<!-- The Pull Request -------------------------------------------------- -->
 
   <h1 id="pullRequest">The Pull Request</h1>
 
-  <h2 id="contributeComment">Contributing Comments to a 'Pull request'</h2>
+  <h5>Fig. #&mdash;The <strong>pull request</strong> stage</h5>
+  <img src="images/pages/flowRequest.png">
+  <br>
 
-  <p>A <strong>pull request</strong> is a request made by the author of a <strong>branch</strong> asking either for a general review and comments, or for a review pending a possible <strong>merge</strong> to the <strong>master</strong> &ndash; or even to another <strong>branch</strong>.</p>
+  <p>This is such an easy misunderstand, but a <strong>pull request</strong> is not a request <em>you</em> make, asking if it's OK to pull something down to your repo or computer. Actually, it's the very opposite. If you have a contribution you'd like to add to someone else's repo, you'll make a <strong>pull request</strong> asking them if they'd like to pull <em>your</em> contribution down to <em>their</em> repo. In other words, you're not inviting them to <em>your</em> party, you're asking them to invite you to <em>their's</em>!</p>
 
-  <p>There are at least two places where we can <em>review edits</em> and <em>pass comments</em> on any <strong>branch</strong> that has initiated a <strong>pull request</strong>: the <strong>Update to &lt;file&gt;</strong> page &lpar;see fig. 5&rpar;; and the <strong>Comparing changes</strong> page &lpar;see figs. 11 and 16&rpar;. Route 1 takes you, via the <strong>pull request</strong> tab to the former. Routes 2 and 3 take you to the <strong>comparing changes</strong> page, but from different starting points.</p>
-
-  <p>If you want to go to the <strong>comparing changes</strong> page, use route 3&mdash;it takes you directly there&mdash;wereas route 2 arrives at the same place by a much more circuitous route.</p>
-
-  <p>Be aware, there's a <strong>compare changes</strong> page <em>and</em> a <strong>comparing changes</strong>. Two seperate pages.</p>
-
-  <p>The <strong>comparing changes</strong> page</p>
-
-  <h5>Fig. 1&mdash;The Overview Page of a Repository</h5>
-  <img src="images/routeOverview.png">
-  <div style="height: 30px;"></div>
-
-
-  <h2 id="route1">Route 1&mdash;The 'Pull request' Tab</h2>
-
-  <h5>Fig. 2&mdash;'Pull request' tab in the overview page</h5>
-  <img src="images/route1a.png">
-  <div style="height: 30px;"></div>
-
-  <h5>Fig. 3&mdash;'Update to &lt;file&gt;' link in the pull request page</h5>
-  <img src="images/route1b.png">
-  <div style="height: 30px;"></div>
-
-  <h5>Fig. 4&mdash;'View &lt;branch&gt; edits link in the update to &lt;file&gt; page</h5>
-  <img src="images/route1c.png">
-  <div style="height: 30px;"></div>
-
-  <h5>Fig. 5&mdash;The 'Update to &lt;file&gt;' page and 'Review changes' link</h5>
-  <img src="images/route1d.png">
-  <div style="height: 30px;"></div>
-
-  <h5>Fig. 6&mdash;The edits page and 'Review changes' link</h5>
-  <img src="images/route1e.png">
-  <div style="height: 60px;"></div>
-
-
-  <h2 id="route2">Route 2&mdash;</h2>
-
-  <h5>Fig. 7&mdash;'Pull request' tab in the overview page</h5>
-  <img src="images/route1a.png">
-  <div style="height: 30px;"></div>
-
-  <h5>Fig. 8&mdash;'Pull request' tab in the overview page</h5>
-  <img src="images/route2a.png">
-  <div style="height: 30px;"></div>
-
-  <h5>Fig. 9&mdash;The 'Compare changes' Page</h5>
-  <img src="images/route2b.png">
-  <div style="height: 30px;"></div>
-
-  <h5>Fig. 10&mdash;The 'compare: master' Dropdown Menu</h5>
-  <img src="images/route2c.png">
-  <div style="height: 30px;"></div>
-
-  <h5>Fig. 11&mdash;The 'Comparing Changes' Page</h5>
-  <img src="images/route2d.png">
-  <div style="height: 30px;"></div>
-
-  <h5>Fig. 12&mdash;'Pull request' tab in the overview page</h5>
-  <img src="images/route2e.png">
-  <div style="height: 60px;"></div>
-
-
-  <h2 id="route3">Route 3&mdash;'New pull request' Dropdown</h2>
-
-  <h5>Fig. 13&mdash;'New pull request' dropdown in the overview page</h5>
-  <img src="images/route3a.png">
-  <div style="height: 30px;"></div>
-
-  <h5>Fig. 14&mdash;The 'Compare changes' Page</h5>
-  <img src="images/route2b.png">
-  <div style="height: 30px;"></div>
-
-  <h5>Fig. 15&mdash;The 'compare: master' Dropdown Menu</h5>
-  <img src="images/route2c.png">
-  <div style="height: 30px;"></div>
-
-  <h5>Fig. 16&mdash;The 'Comparing Changes' Page</h5>
-  <img src="images/route2d.png">
-  <div style="height: 60px;"></div>
-
-
+  <p> make <strong>branch</strong> asking either for a general review and comments, or for a review pending a possible <strong>merge</strong> to the <strong>master</strong> &ndash; or even to another <strong>branch</strong>.</p>
 
 
   <div style="height: 30px;"></div>
@@ -196,9 +180,9 @@ img {
 
 
 
-<!-- Pages -------------------------------------------------- -->
+<!-- GitHub Pages and Tabs -------------------------------------------------- -->
 
-  <h1 id="thePages">The Pages&mdash;And How to get to Them</h1>
+  <h1 id="thePages">Navigating the 'Pull Request' Pages and Tabs</h1>
 
   <p>To get back to here, click the <a href="#thePages">Back</a> link.</p>
 
@@ -207,6 +191,7 @@ img {
   <p>So far as I presently understand, when it comes to responding to <strong>pull requests</strong>, there are eight pages we need to know about. I'm not certain what the <em>official</em> names for these pages are, but I've made up what I hope &lpar;for now at least&rpar; are useful, if cumbersome, descriptive titles for them.</p>
 
   <ul>
+    <li><a href="#pathways">An Intricate Network of Paths</a></li>
     <li><a href="#repoFrontpage">The 'Repo Front Page'</a></li>
     <li><a href="#pullRequests">The 'Pull requests' Page</a></li>
     <li><a href="#branches">The 'branches' Page</a></li>
@@ -256,6 +241,19 @@ img {
     <div><img src="images/pages/filesChanged.png" width="440px" height="auto"></div>
     <div><img src="images/pages/updateTofileReview.png" width="440px" height="auto"></div>
   </div>
+
+  <div style="height: 30px;"></div>
+  <a href="#top">Top</a>
+  <a href="#thePages">Back</a>
+  <div style="height: 30px;"></div>
+
+  <h5 id="pathways">Fig. #&mdash;A Labyrinthine Network of Paths</h5>
+  <img src="images/pages/pathways.png">
+
+  <div style="height: 60px;"></div>
+  <a href="#top">Top</a>
+  <a href="#thePages">Back</a>
+
 
   <h1>The Full-Size Pages</h1>
 
@@ -339,6 +337,12 @@ img {
   <p class="route">Repo Front Page &gt; New pull requests &gt; compare: <strong>master</strong> &gt; index.html</p>
   <img src="images/pages/comparingChanges1.png">
   <img src="images/pages/comparingChanges2.png">
+
+  <div style="height: 30px;"></div>
+
+  <p><strong>Comparing pages</strong> when there's nothing to compare.</p>
+
+  <img src="images/pages/comparingChangesb.png">
 
   <div style="height: 60px;"></div>
   <a href="#top">Top</a>
@@ -433,6 +437,89 @@ img {
   <div style="height: 60px;"></div>
   <a href="#top">Top</a>
   <hr>
+
+  <h2 id="contributeComment">Contributing Comments to a 'Pull request'</h2>
+
+  <p>There are at least two places where we can <em>review edits</em> and <em>pass comments</em> on any <strong>branch</strong> that has initiated a <strong>pull request</strong>: the <strong>Update to &lt;file&gt;</strong> page &lpar;see fig. 5&rpar;; and the <strong>Comparing changes</strong> page &lpar;see figs. 11 and 16&rpar;. Route 1 takes you, via the <strong>pull request</strong> tab to the former. Routes 2 and 3 take you to the <strong>comparing changes</strong> page, but from different starting points.</p>
+
+  <p>If you want to go to the <strong>comparing changes</strong> page, use route 3&mdash;it takes you directly there&mdash;wereas route 2 arrives at the same place by a much more circuitous route.</p>
+
+  <p>Be aware, there's a <strong>compare changes</strong> page <em>and</em> a <strong>comparing changes</strong>. Two seperate pages.</p>
+
+  <p>The <strong>comparing changes</strong> page</p>
+
+  <h5>Fig. 1&mdash;The Overview Page of a Repository</h5>
+  <img src="images/routeOverview.png">
+  <div style="height: 30px;"></div>
+
+
+  <h2 id="route1">Route 1&mdash;The 'Pull request' Tab</h2>
+
+  <h5>Fig. 2&mdash;'Pull request' tab in the overview page</h5>
+  <img src="images/route1a.png">
+  <div style="height: 30px;"></div>
+
+  <h5>Fig. 3&mdash;'Update to &lt;file&gt;' link in the pull request page</h5>
+  <img src="images/route1b.png">
+  <div style="height: 30px;"></div>
+
+  <h5>Fig. 4&mdash;'View &lt;branch&gt; edits link in the update to &lt;file&gt; page</h5>
+  <img src="images/route1c.png">
+  <div style="height: 30px;"></div>
+
+  <h5>Fig. 5&mdash;The 'Update to &lt;file&gt;' page and 'Review changes' link</h5>
+  <img src="images/route1d.png">
+  <div style="height: 30px;"></div>
+
+  <h5>Fig. 6&mdash;The edits page and 'Review changes' link</h5>
+  <img src="images/route1e.png">
+  <div style="height: 60px;"></div>
+
+
+  <h2 id="route2">Route 2&mdash;</h2>
+
+  <h5>Fig. 7&mdash;'Pull request' tab in the overview page</h5>
+  <img src="images/route1a.png">
+  <div style="height: 30px;"></div>
+
+  <h5>Fig. 8&mdash;'Pull request' tab in the overview page</h5>
+  <img src="images/route2a.png">
+  <div style="height: 30px;"></div>
+
+  <h5>Fig. 9&mdash;The 'Compare changes' Page</h5>
+  <img src="images/route2b.png">
+  <div style="height: 30px;"></div>
+
+  <h5>Fig. 10&mdash;The 'compare: master' Dropdown Menu</h5>
+  <img src="images/route2c.png">
+  <div style="height: 30px;"></div>
+
+  <h5>Fig. 11&mdash;The 'Comparing Changes' Page</h5>
+  <img src="images/route2d.png">
+  <div style="height: 30px;"></div>
+
+  <h5>Fig. 12&mdash;'Pull request' tab in the overview page</h5>
+  <img src="images/route2e.png">
+  <div style="height: 60px;"></div>
+
+
+  <h2 id="route3">Route 3&mdash;'New pull request' Dropdown</h2>
+
+  <h5>Fig. 13&mdash;'New pull request' dropdown in the overview page</h5>
+  <img src="images/route3a.png">
+  <div style="height: 30px;"></div>
+
+  <h5>Fig. 14&mdash;The 'Compare changes' Page</h5>
+  <img src="images/route2b.png">
+  <div style="height: 30px;"></div>
+
+  <h5>Fig. 15&mdash;The 'compare: master' Dropdown Menu</h5>
+  <img src="images/route2c.png">
+  <div style="height: 30px;"></div>
+
+  <h5>Fig. 16&mdash;The 'Comparing Changes' Page</h5>
+  <img src="images/route2d.png">
+  <div style="height: 60px;"></div>
 
 
 
